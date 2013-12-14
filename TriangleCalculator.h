@@ -16,5 +16,5 @@
 - (NSDictionary *)calcSAS:(NSDictionary *)mesaures;
 - (NSDictionary *)calcSSA:(NSDictionary *)mesaures;
 - (NSDictionary *)calcSSS:(NSDictionary *)mesaures;
-
+//
 @end
