@@ -179,6 +179,12 @@
 
 - (IBAction)caculateButton:(id)sender
 {
+    [self.sideAB resignFirstResponder];
+    [self.sideBC resignFirstResponder];
+    [self.sideCA resignFirstResponder];
+    [self.angleA resignFirstResponder];
+    [self.angleB resignFirstResponder];
+    [self.angleC resignFirstResponder];
     [self calc];
 }
 

@@ -118,9 +118,9 @@
         }
     }
     
-    NSString *sideAB = [NSString stringWithFormat:@"%.1f°",ab];
-    NSString *sideBC = [NSString stringWithFormat:@"%.1f°",bc];
-    NSString *sideCA = [NSString stringWithFormat:@"%.1f°",ca];
+    NSString *sideAB = [NSString stringWithFormat:@"%.1f",ab];
+    NSString *sideBC = [NSString stringWithFormat:@"%.1f",bc];
+    NSString *sideCA = [NSString stringWithFormat:@"%.1f",ca];
     NSString *angleA = [NSString stringWithFormat:@"%.1f°",a];
     NSString *angleB = [NSString stringWithFormat:@"%.1f°",b];
     NSString *angleC = [NSString stringWithFormat:@"%.1f°",c];
@@ -183,9 +183,9 @@
         bc = ratio * sin((M_PI / 180)*a);
     }
     
-    NSString *sideAB = [NSString stringWithFormat:@"%.1f°",ab];
-    NSString *sideBC = [NSString stringWithFormat:@"%.1f°",bc];
-    NSString *sideCA = [NSString stringWithFormat:@"%.1f°",ca];
+    NSString *sideAB = [NSString stringWithFormat:@"%.1f",ab];
+    NSString *sideBC = [NSString stringWithFormat:@"%.1f",bc];
+    NSString *sideCA = [NSString stringWithFormat:@"%.1f",ca];
     NSString *angleA = [NSString stringWithFormat:@"%.1f°",a];
     NSString *angleB = [NSString stringWithFormat:@"%.1f°",b];
     NSString *angleC = [NSString stringWithFormat:@"%.1f°",c];
@@ -253,9 +253,9 @@
     
     error = @"";
     
-    NSString *sideAB = [NSString stringWithFormat:@"%.1f°",ab];
-    NSString *sideBC = [NSString stringWithFormat:@"%.1f°",bc];
-    NSString *sideCA = [NSString stringWithFormat:@"%.1f°",ca];
+    NSString *sideAB = [NSString stringWithFormat:@"%.1f",ab];
+    NSString *sideBC = [NSString stringWithFormat:@"%.1f",bc];
+    NSString *sideCA = [NSString stringWithFormat:@"%.1f",ca];
     NSString *angleA = [NSString stringWithFormat:@"%.1f°",a];
     NSString *angleB = [NSString stringWithFormat:@"%.1f°",b];
     NSString *angleC = [NSString stringWithFormat:@"%.1f°",c];
@@ -327,9 +327,9 @@
         error = @"";
     }
     
-    NSString *sideAB = [NSString stringWithFormat:@"%.1f°",ab];
-    NSString *sideBC = [NSString stringWithFormat:@"%.1f°",bc];
-    NSString *sideCA = [NSString stringWithFormat:@"%.1f°",ca];
+    NSString *sideAB = [NSString stringWithFormat:@"%.1f",ab];
+    NSString *sideBC = [NSString stringWithFormat:@"%.1f",bc];
+    NSString *sideCA = [NSString stringWithFormat:@"%.1f",ca];
     NSString *angleA = [NSString stringWithFormat:@"%.1f°",a];
     NSString *angleB = [NSString stringWithFormat:@"%.1f°",b];
     NSString *angleC = [NSString stringWithFormat:@"%.1f°",c];
@@ -363,9 +363,9 @@
         error = @"";
     }
     
-    NSString *sideAB = [NSString stringWithFormat:@"%.1f°",ab];
-    NSString *sideBC = [NSString stringWithFormat:@"%.1f°",bc];
-    NSString *sideCA = [NSString stringWithFormat:@"%.1f°",ca];
+    NSString *sideAB = [NSString stringWithFormat:@"%.1f",ab];
+    NSString *sideBC = [NSString stringWithFormat:@"%.1f",bc];
+    NSString *sideCA = [NSString stringWithFormat:@"%.1f",ca];
     NSString *angleA = [NSString stringWithFormat:@"%.1f°",a];
     NSString *angleB = [NSString stringWithFormat:@"%.1f°",b];
     NSString *angleC = [NSString stringWithFormat:@"%.1f°",c];
